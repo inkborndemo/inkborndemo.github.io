@@ -444,7 +444,7 @@ document.querySelector('footer').appendChild(sndBtn);
 const DLP = [
   'aHR0cHM6Ly93d3cuZHJvcGJveC5jb20vc2NsL2ZpL2JtazM5bHl5bmVtcHBz',
   'eGV2cmozbC9Jbmtib3JuLnppcD9ybGtleT0waDJ3aXg5Z3B3Ymh6OGRodDZ4',
-  'cjBlOGhiJnN0PWZqMWxyb2prJmRsPTE='
+  'cjBlOGhiJnN0PTZxeTF4aDNkJmRsPTE='
 ];
 const dlUrl = () => { try { return atob(DLP.join('')); } catch (e) { return ''; } };
 document.querySelectorAll('a.dl').forEach(a => {
